@@ -1,0 +1,25 @@
+{
+  "name": "mhsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devitin/mhsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devitin/mhsite/issues"
+  },
+  "homepage": "https://github.com/devitin/mhsite#readme",
+  "dependencies": {
+    "next": "^12.2.4",
+    "react": "^18.2.0",
+    "react.dom": "^1.0.1"
+  }
+}
