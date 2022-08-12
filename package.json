@@ -1,7 +1,7 @@
 {
   "name": "mhsite",
   "version": "1.0.0",
-  "description": "",
+  "description": "site mh infostore",
   "main": "index.js",
   "scripts": {
     "dev": "next dev"
