@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import './redessociais';
-import './style.css';
+import 'https://github.com/devitin/mhsite/blob/main/pages/style.css';
 
 function home(){
     return (
