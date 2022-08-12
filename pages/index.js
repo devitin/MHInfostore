@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './redessociais'
+import './style.css'
 
 function home(){
     return (
