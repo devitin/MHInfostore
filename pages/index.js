@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import 'https://github.com/devitin/mhsite/blob/main/pages/style.css';
 
 function home(){
     return (
