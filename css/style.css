@@ -1,7 +1,8 @@
-body, header, h1, h2, h3, h4, h5, h6, img, section, article, footer, p, ul, ol, li, a, span, code{
+*{
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 body{
     background: #c0c0c0;
@@ -16,23 +17,28 @@ a:hover{
 ul{
     list-style-type: none;
 }
-.headerTopo{
+.container-topo{
     background: #3d5575;
-    text-align: center;
     margin-bottom: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
-.logoTopo{
+.container-topologo{
+    padding: 15px 15px 0 15px;
+}
+.logotopo{
     width: 100%;
     max-width: 70px;
     min-width: 50px;
-    padding: 15px 15px 0 15px;
+
 }
-.h1{
+.container-topoheader{
     text-align: center;
     color: white;
     padding-bottom: 15px;
 }
-.section{
+.container{
     max-width: 100%;
     min-width: 20%;
     width: auto;
@@ -42,7 +48,7 @@ ul{
     font-size: 12px;
     color: rgba(0, 0, 0, 0.6);
     background: white;
-    max-width: 40%;
+    max-width: 400px;
     min-width: 20%;
     width: auto;
     margin: auto;
@@ -53,7 +59,7 @@ ul{
 }
 .article{
     background: white;
-    max-width: 40%;
+    max-width: 400px;
     min-width: 20%;
     width: auto;
     margin: auto;
@@ -67,24 +73,24 @@ h2{
     font-size: 18px;
     margin-bottom: 5px;
 }
-.whatsapp{
+.span-whatsapp{
     color: #028013;
 }
-.email{
+.span-email{
     color: #ff3300;
 }
 .logos{
     border: 1px solid rgba(255, 255, 255, 0);
-    border-radius: 10px;
-    max-height: 24px;
+    border-radius: 5px;
+    max-height: 35px;
     margin-bottom: 5px;
     transition: 0.5s;
     padding: 4px;
+    transition: 0.5s border;
 }
 .logos:hover{
     border: 1px solid #3d5575;
-    border-radius: 10px;
-    transition: 0.5s;
+    border-radius: 5px;
     padding: 4px;
 }
 .ul1{
@@ -97,9 +103,13 @@ h2{
 .colorido{
     color: #ff3300;
 }
-.footer{
+.container-footer{
+    height: 100px;
     color: white;
     background: #3d5575;
     text-align: right;
     padding: 15px;
+}
+.container-footer footer ul li a:hover{
+    color: white;
 }
