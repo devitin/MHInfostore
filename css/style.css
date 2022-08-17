@@ -38,6 +38,9 @@ ul{
     color: white;
     padding-bottom: 15px;
 }
+.container-topoheader h2{
+    color: white;
+}
 .container{
     max-width: 100%;
     min-width: 20%;
