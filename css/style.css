@@ -50,6 +50,10 @@ ul{
     flex-direction: column;
     justify-content: center;
 }
+.container-buttons-pags{
+    margin: auto;
+    margin-bottom: 15px;
+}
 .infolink{
     font-size: 12px;
     color: rgba(0, 0, 0, 0.6);
@@ -64,7 +68,7 @@ ul{
     box-shadow: 3px 3px rgb(128, 128, 128, .3);
 }
 .container-articles{
-    
+    margin: auto;
 }
 .article{
     background: white;
@@ -112,12 +116,29 @@ h2{
 .colorido{
     color: #ff3300;
 }
+.back-to-top{
+    text-align: right;
+    padding: 5px;
+}
 .container-footer{
     height: 100px;
     color: white;
     background: #3d5575;
     text-align: right;
     padding: 15px;
+}
+.container-footer footer p{
+    font-size: 10px;
+    margin-bottom: 10px;
+    cursor: default;
+}
+.container-footer footer p span{
+    color: #3d5575;
+    cursor: default;
+}
+.container-footer footer p span:hover{
+    color: white;
+    cursor: default;
 }
 .container-footer footer ul li a:hover{
     color: white;
