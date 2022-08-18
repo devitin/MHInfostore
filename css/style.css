@@ -54,9 +54,6 @@ ul{
     margin: auto;
     margin-bottom: 15px;
 }
-section{
-    min-height: auto;
-}
 .infolink{
     font-size: 12px;
     color: rgba(0, 0, 0, 0.6);
@@ -146,6 +143,9 @@ h2{
 .container-footer footer .desenvolvido span:hover{
     color: white;
     cursor: default;
+}
+.container-footer footer ol{
+    list-style-type: none;
 }
 .container-footer footer ol li{
     margin: 5px;
