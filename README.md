@@ -2,10 +2,9 @@
 
 docdroid pdf upload; mh ou home
 canva; mh ou home
-Simples Nacional; mei
-PGMEI; mei
+Simples Nacional; outros
+PGMEI; outros
 Certidoes Negativas; Nada Consta
-SESIPE; outros
 DENATRAN; detran
 detran sp; detran
 Identidade PCDF; outros
