@@ -1,7 +1,5 @@
 # mhsite
 
-adicionar contatos da loja no footer
-colocar os meus contatos no final colado
 docdroid pdf upload; mh ou home
 canva; mh ou home
 Simples Nacional; mei
@@ -15,3 +13,5 @@ Titulo pelo nome; outros
 govbr; govbr ou outros
 recuperar govbr; govbr ou outros
 portal do servidor; outros
+
+fazer barra lateral

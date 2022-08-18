@@ -51,8 +51,28 @@ ul{
     justify-content: center;
 }
 .container-buttons-pags{
+    display: inline-block;
     margin: auto;
     margin-bottom: 15px;
+}
+.container-buttons-pags a button{
+    padding: 5px 10px;
+    margin: 3px 3px;
+    background: white;
+    border: none;
+    border-radius: 15px;
+    color: #3d5575;
+    font-weight: bold;
+}
+.container-buttons-pags a button:hover{
+    padding: 5px 10px;
+    margin: 3px 3px;
+    background: #3d5575;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 .infolink{
     font-size: 12px;
