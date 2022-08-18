@@ -125,6 +125,7 @@ h2{
     background: #3d5575;
     text-align: right;
     padding: 15px;
+    position: static;
 }
 .container-footer footer p{
     font-size: 10px;
