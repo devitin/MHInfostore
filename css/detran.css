@@ -1,0 +1,25 @@
+.container section{
+    height: 810px;
+}
+
+.impar-1{
+    position: absolute;
+    top: 0px;
+}
+.impar-3{
+    position: absolute;
+    top: 245px;
+}
+.impar-5{
+    position: absolute;
+    top: 455px;
+}
+
+.par-2{
+    position: absolute;
+    top: 0px;
+}
+.par-4{
+    position: absolute;
+    top: 175px;
+}

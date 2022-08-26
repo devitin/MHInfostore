@@ -18,28 +18,73 @@ ul{
     list-style-type: none;
 }
 .container-topo{
+    max-width: 100%;
+    height: 120px;
     background: #3d5575;
     margin-bottom: 15px;
     display: flex;
     text-align: center;
     justify-content: center;
+    position: relative;
 }
 .container-topologo{
     padding: 15px 15px 0 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .logotopo{
     width: 100%;
-    max-width: 70px;
+    max-width: 85px;
     min-width: 50px;
-
 }
-.container-topoheader{
-    text-align: center;
+.container-topoheader h1{
     color: white;
-    padding-bottom: 15px;
+    position: absolute;
+    top: 25px;
+    left: 110px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .container-topoheader h2{
     color: white;
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    text-align: left;
+}
+.menu{
+    margin: auto;
+    margin-bottom: 15px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu .menu-ul1{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+.menu .menu-ul2{
+    position: absolute;
+    top: 35px;
+    right: 5px;
+}
+.menu button{
+    padding: 5px 5px;
+    margin: 0.5px;
+    background: #3d5575;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.menu button:hover{
+    background: #fff;
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: #3d5575;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .container{
     max-width: 100%;
@@ -49,30 +94,6 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.container-buttons-pags{
-    display: inline-block;
-    margin: auto;
-    margin-bottom: 15px;
-}
-.container-buttons-pags a button{
-    padding: 5px 10px;
-    margin: 3px 3px;
-    background: white;
-    border: none;
-    border-radius: 15px;
-    color: #3d5575;
-    font-weight: bold;
-}
-.container-buttons-pags a button:hover{
-    padding: 5px 10px;
-    margin: 3px 3px;
-    background: #3d5575;
-    border: none;
-    border-radius: 15px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
 }
 .infolink{
     font-size: 12px;
@@ -85,21 +106,30 @@ ul{
     padding: 5px 15px;
     margin-bottom: 15px;
     border-radius: 10px;
-    box-shadow: 3px 3px rgb(128, 128, 128, .3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .container-articles{
     margin: auto;
+    width: 820px;
+    position: relative;
+}
+.impar{
+    position: absolute;
+    left: 420px;
+}
+.par{
+    position: absolute;
+    left: 0;
 }
 .article{
     background: white;
-    max-width: 400px;
+    width: 400px;
     min-width: 20%;
-    width: auto;
     margin: auto;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 10px;
-    box-shadow: 3px 3px rgb(128, 128, 128, .3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 h2{
     color: black;
@@ -141,6 +171,7 @@ h2{
     padding: 5px;
 }
 .container-footer{
+    width: 100%;
     color: white;
     background: #3d5575;
     text-align: right;
@@ -172,12 +203,12 @@ h2{
 }
 .container-footer footer ol li a{
     color: white;
-    padding: 1px;
+    padding: 1px 5px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
 }
 .container-footer footer ol li a:hover{
     border: 1px solid #ffffff;
-    border-radius: 5px;
-    padding: 1px;
 }
 .logos-footer{
     border: 1px solid rgba(255, 255, 255, 0);

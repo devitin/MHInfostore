@@ -1,0 +1,13 @@
+.container section{
+    height: 220px;
+}
+
+.impar-1{
+    position: absolute;
+    top: 0px;
+}
+
+.par-2{
+    position: absolute;
+    top: 0px;
+}
