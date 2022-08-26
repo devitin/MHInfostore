@@ -115,11 +115,11 @@ ul{
 }
 .impar{
     position: absolute;
-    left: 420px;
+    left: 0;
 }
 .par{
     position: absolute;
-    left: 0;
+    left: 420px;
 }
 .article{
     background: white;
